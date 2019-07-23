@@ -44,9 +44,54 @@
     height: 100%;
     position: relative;
     float: left;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
 }
 
+.user {
+    width: 100%;
+    height: 60px;
+    background-color:lightgray;
+}
+
+.circle-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px 0 5px;
+    
+}
+
+#search-contact {
+    width: 100%;
+    height: 45px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-bar {
+    width: 80%;
+    height: 70%;
+    border-radius: 20px;
+    border: none;
+}
+
+#contact {
+    width: 100%;
+    flex-grow: 1;
+    background: white;
+}
+
+.contact-group {
+    width: 100%;
+    height: calc(100% / 7);
+    background: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
 /*RIGHT APP*/
 
 #right-side {
